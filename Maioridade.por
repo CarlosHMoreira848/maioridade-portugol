@@ -7,9 +7,9 @@ programa
 		escreva("Digite sua idade para saber se você é de maior! ")
 		leia(idade)
 		se (idade >=18) {
-			escreva("Você é maior de idade!")
+			escreva("Sua idade é " + idade + "... Você é maior de idade!")
 		} senao {
-			escreva("Você é menor de idade!")
+			escreva("Sua idade é " + idade + "... Você é menor de idade!")
 		}
 	}
 }
